@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(216 216 216);
+}
+
+select{
+    margin-bottom:15px;
+    border-radius: 8px; 
+    border:none;
+    outline: none;
+    width:100%; 
+    height: 40px; 
+    padding-left: 10px;
+}
+
+.input input,
+.input textarea {
+    background: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.75);
+
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: #fff !important;
+    padding:20px;
+}
+
+.btn-outline-danger{
+    background-color:black; 
+    border-color:black; 
+    color: white !important;
+}
+.btn-outline-danger:hover{
+    background-color:orangered; 
+    background-color: none;
+    color: white !important;
+}
+.btn-outline-danger a:hover{
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.card-title a{
+    color:black;
+}
+
+.nav-item{
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.nav-link.active{
+    color:black;
+    font-weight: 900;
+
+}
+
+.card-body p{
+    font-weight: 300;
+}
+
+label{
+    font-weight: 500;
+    
+}
+
+.btn-contact {
+    border: none;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px ;
+    border-radius:9999rem;
+    margin-top:20px;
+    text-decoration: none; 
+    color: #ffffff; 
+    display: inline-block; 
+    margin-bottom: 1rem;
+}
+.btn-contact a {
+    color: white;
+    
+}
+.btn-contact:hover {
+    color: white;
+    background: orangered;
+}
+
+.btn-submit {
+    border: none;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.btn-submit a {
+    color: white;
+}
+
+.btn-wrap{
+    padding:10px;
+    
+}
+
+

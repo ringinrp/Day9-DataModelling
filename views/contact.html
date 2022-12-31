@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Day 9 | Data Modelling</title>
+    <link href="/Public/css/bootstrap.css" rel="stylesheet">
+    <link href="/Public/css/style.css" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link href="/Public/css/all.css" rel="stylesheet">
+
+    <!--Google Font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!---->
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light  shadow-sm p-3 mb-5 bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/Public/images/brandred.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project">Add Project</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-outline-danger" type="submit">Contact Me</button>
+
+            </div>
+        </div>
+    </nav>
+    <!---->
+
+    <!--Content-->
+
+    <h1 style=" font-size:30px; text-align: center;">GET IN TOUCH</h1>
+    <div style="border: none solid black; width: 40%; margin:auto; margin-top: 10px;  padding: 50px;  border-radius: 15px; border-radius: 10px;">
+        <form action="#">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name"
+                    placeholder="Masukkan nama">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email"
+                    placeholder="Masukkan email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phonenumber"
+                    placeholder="Masukkan nomer telephone">
+            </div>
+            <div class="row">
+                <label for="">Subject</label>
+                <div class="col">
+                    <select class="text-input" id="subject">
+                        <option>Pilih</option>
+                        <option>Front End</option>
+                        <option>Back End</option>
+                        <option>Full Stack</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                <textarea class="form-control" id="description" cols="30" rows="5" style="resize: none;"
+                            name="description" placeholder="Masukkan deskripsi project .."></textarea>
+            </div>
+            <div style="padding-top:15px; text-align:end;">
+                <button class="btn btn-outline-danger mb-4" type="submit">Submit</button>
+            </div>
+            </div>
+        </div>
+        </form>
+        
+    </div>
+    
+    <!---->
+
+
+    <script src="/Publicjs/popper.min.js"></script>
+    <script src="/Publicjs/js/jquery-3.6.1.min.js"></script>
+    <script src="/Publicjs/js/bootstrap.js"></script>
+    <script src="/Publicjs/js/all.js"></script>
+</body>
+
+</html>
